@@ -1,65 +1,26 @@
+html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Flight Bookings & Hotel Reservations</title>
-  <link rel="stylesheet" href="styles.css"/>
-  <script src="https://js.stripe.com/v3/"></script> <!-- Stripe JS -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      color: #0077cc;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Flight Bookings & Hotel Reservations</h1>
-    <nav>
-      <a href="#flights">Flights</a>
-      <a href="#hotels">Hotels</a>
-      <a href="#booking">Book Now</a>
-    </nav>
-  </header>
-
-  <section id="hero">
-    <h2>Your next adventure starts here!</h2>
-    <button onclick="scrollToBooking()">Start Booking</button>
-  </section>
-
-  <section id="flights">
-    <h2>Popular Flights</h2>
-    <ul>
-      <li>Entebbe ✈️ Dubai</li>
-      <li>Nairobi ✈️ Johannesburg</li>
-      <li>Accra ✈️ London</li>
-    </ul>
-  </section>
-
-  <section id="hotels">
-    <h2>Top Hotels</h2>
-    <ul>
-      <li>Serena Hotel - Kampala</li>
-      <li>Radisson Blu - Kigali</li>
-      <li>Hilton - Nairobi</li>
-    </ul>
-  </section>
-
-  <section id="booking">
-    <h2>Ready to Book?</h2>
-    <form id="bookingForm">
-      <input type="text" name="fullName" placeholder="Full Name" required /><br><br>
-      <input type="email" name="email" placeholder="Email Address" required /><br><br>
-      <select name="destination" required>
-        <option value="">Select Destination</option>
-        <option value="Entebbe to Dubai">Entebbe ✈️ Dubai</option>
-        <option value="Nairobi to Johannesburg">Nairobi ✈️ Johannesburg</option>
-        <option value="Accra to London">Accra ✈️ London</option>
-      </select><br><br>
-      <button type="submit">Pay & Book</button>
-    </form>
-    <p>Secure payment powered by Stripe</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Flight Bookings & Hotel Reservations</p>
-  </footer>
-
-  <script src="script.js"></script>
+  <h1>Welcome to My Website</h1>
+  <p>This is a simple HTML page hosted using GitHub Pages.</p>
+  <p>Stay tuned for more updates!</p>
 </body>
 </html>
